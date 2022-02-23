@@ -5,7 +5,7 @@
 //  Twitter : @firecrestHRZN and @Kieran_Conlon
 //
 
-#include "include/CGeodesic.h"
+#include "include/CGeodesic.hpp"
 #include "../../geographiclib/geographiclib.h"
 
 void inverse(double lat1, double lon1, double lat2, double lon2,

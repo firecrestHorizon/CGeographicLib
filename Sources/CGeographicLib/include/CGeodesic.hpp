@@ -5,6 +5,9 @@
 //  Twitter : @firecrestHRZN and @Kieran_Conlon
 //
 
+#ifndef CGEODESIC_HPP
+#define CGEODESIC_HPP
+
 #ifdef __cplusplus
 extern "C"  {
 #endif
@@ -20,3 +23,5 @@ void direct(double lat1, double lon1, double azi1, double s12,
 #ifdef __cplusplus
 }
 #endif
+
+#endif /* CGEODESIC_HPP */
