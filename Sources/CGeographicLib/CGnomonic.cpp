@@ -9,7 +9,7 @@
 #include "include/CGeodesic.hpp"
 #include "../../geographiclib/geographiclib.h"
 
-void Forward(double lat0, double lon0, double lat, double lon,
+void forward(double lat0, double lon0, double lat, double lon,
              double *x, double *y,
              double a, double f) {
   using namespace std;
@@ -21,7 +21,7 @@ void Forward(double lat0, double lon0, double lat, double lon,
   proj.Forward(lat0, lon0, lat, lon, *x, *y);
 }
 
-void Reverse(double lat0, double lon0, double x, double y,
+void reverse(double lat0, double lon0, double x, double y,
              double *lat, double *lon,
              double a, double f) {
   using namespace std;

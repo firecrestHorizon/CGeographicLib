@@ -12,11 +12,11 @@
 extern "C"  {
 #endif
 
-void Forward(double lat0, double lon0, double lat, double lon,
+void forward(double lat0, double lon0, double lat, double lon,
              double *x, double *y,
              double a, double f);
 
-void Reverse(double lat0, double lon0, double x, double y,
+void reverse(double lat0, double lon0, double x, double y,
              double *lat, double *lon,
              double a, double f);
 
