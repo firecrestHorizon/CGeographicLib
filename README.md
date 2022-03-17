@@ -18,3 +18,7 @@ brew install geographiclib
 
 - Geodesic.Inverse
 - Geodesic.Direct
+- Geodesic.ArcDirect
+
+- Gnomonic.Forward
+- Gnomonic.Reverse
